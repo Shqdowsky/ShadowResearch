@@ -1,0 +1,78 @@
+@import url(style.css);
+.newtokens {
+  padding-top: 125px;
+  padding-bottom: 60px;
+}
+
+.newtokens__main-bord, .newtokens__second-bords {
+  margin-bottom: 50px;
+}
+
+.newtokens__main-bord, .newtokens__second-bords {
+  height: 150px;
+  width: 100%;
+}
+
+.bord {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  opacity: 0.4;
+  transition: all 0.5s ease 0s;
+  border: 8px dashed rgb(0, 0, 0);
+  box-shadow: 0px 0px 10px rgb(0, 0, 0);
+}
+
+.bord:hover {
+  opacity: 0.5;
+  box-shadow: 0px 0px 15px rgb(0, 0, 0);
+}
+
+.bord__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bord__title {
+  font-size: 25px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.newtokens__second-bords {
+  height: 140px;
+  display: flex;
+}
+
+.bord:not(:last-child) {
+  margin-right: 50px;
+}
+
+.bord-first {
+  flex: 0 1 50%;
+}
+
+.bord-second {
+  flex: 0 1 50%;
+}
+
+.second-bord__title, .first-bord__title, .third-bord__title {
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.newtokens__last-bords {
+  display: flex;
+  height: 140px;
+}
+.newtokens__last-bords .first-bord {
+  flex: 0 1 33.333%;
+}
+.newtokens__last-bords .bord-second {
+  flex: 0 1 33.333%;
+}
+.newtokens__last-bords .bord-third {
+  flex: 0 1 33.333%;
+}/*# sourceMappingURL=style2.css.map */
